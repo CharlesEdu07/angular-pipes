@@ -1,6 +1,6 @@
 <div class="container">
   <h1>{{ name | uppercase }}</h1>
-  <h1>{{ birthdate | date }}</h1>
-  <h1>{{ price | number }}</h1>
-  <h1>{{ change | currency }}</h1>
+  <h1>{{ birthdate | date:'dd/MM/y' }}</h1>
+  <h1>{{ price | number:'1.2-2' }}</h1>
+  <h1>{{ change | currency:'BRL':true:'1.2-2' }}</h1>
 </div>
