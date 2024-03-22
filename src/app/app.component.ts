@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  name = 'Hally Santos';
+  birthdate = new Date(1990, 10, 10);
+  price = 12355.45;
+  change = 0.45213;
 }
